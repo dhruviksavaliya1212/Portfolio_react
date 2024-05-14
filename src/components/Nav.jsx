@@ -11,12 +11,12 @@ const Nav = () => {
     console.log("click"+click);
   }
   return (
-    <div className="">
-      <div className=" lg:h-16 h-14 w-full fixed shadow-lg dark:bg-black/40 bg-zinc-400/30 shadow-zinc-400 dark:shadow-zinc-700">
-        <div className="relative flex items-center justify-between px-10 h-full w-full">
-          <h1 className="text-3xl font-bold">Logo</h1>
+    <div className="relative">
+      <div className=" lg:h-16 h-14 w-full fixed shadow-lg z-50 dark:bg-black/30 bg-zinc-400/30 shadow-zinc-400 dark:shadow-zinc-700">
+        <div className="relative flex items-center justify-between  px-10 h-full w-full">
+          <h1 className="text-3xl">Logo</h1>
           <div className={` lg:absolute lg:right-[20rem] xl:right-[25rem] lg:flex lg:h-full h-[25rem] mt-[30rem] lg:mt-0 justify-between gap-10 ${click == false?"hidden":"flex"} `}>
-            <div className=" lg:h-full h-full bg-zinc-300 dark:bg-black/80 lg:bg-transparent lg:dark:bg-transparent lg:w-[32rem] w-[15rem] flex lg:flex-row flex-col justify-center items-center gap-10 text-lg font-semibold ">
+            <div className=" lg:h-full h-full bg-zinc-300 dark:bg-black/80 lg:bg-transparent lg:dark:bg-transparent lg:w-[32rem] w-[15rem] flex lg:flex-row flex-col justify-center items-center gap-10 text-lg ">
               {/* <a href="">Home</a>
               <a href="">About Me</a>
               <a href="">Skills</a>
@@ -27,7 +27,7 @@ const Nav = () => {
                 </a>
               ))}
 
-              <div className=" text-md font-semibold shadow-md shadow-zinc-500 dark:shadow-zinc-500 rounded-full ">
+              <div className=" text-md shadow-md shadow-zinc-500 dark:shadow-zinc-500 rounded-full ">
                 <a
                   href=""
                   className=" px-4 py-1 uppercase rounded-full bg-zinc-400 dark:bg-zinc-700"
