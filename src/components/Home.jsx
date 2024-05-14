@@ -11,7 +11,7 @@ const Home = () => {
     deleteSpeed:50
   });
   return (
-    <div className='h-fit overflow-hidden flex pt-10 lg:pt-16 items-center justify-center w-full bg-[url("https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149052421.jpg?t=st=1715603247~exp=1715606847~hmac=4467b09bcdeda26e7334f52647ede81da63ff674c993385a9e5492acb30afead&w=900")] dark:bg-[url("https://t3.ftcdn.net/jpg/07/28/19/22/240_F_728192293_BTdQagiQ098jhVr1eiiNpd1OELVtxEjp.jpg")] bg-cover bg-center'>
+    <div className='h-fit overflow-hidden flex pt-10 lg:pt-16 items-center justify-center w-full bg-[url("https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149052421.jpg?t=st=1715603247~exp=1715606847~hmac=4467b09bcdeda26e7334f52647ede81da63ff674c993385a9e5492acb30afead&w=900")] dark:bg-[url("https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149159609.jpg?w=900&t=st=1715664384~exp=1715664984~hmac=c984c7a25a0309100af2a82cba2b64072562b33ec59b4a3591e7fe0eb1ed3845")] bg-cover bg-center'>
       <div className="lg:h-[30rem] h-[52rem] sm:h-[50rem] flex flex-col-reverse lg:flex-row lg:w-[60rem] xl:w-[70rem] w-full mx-3 sm:mx-[7vw] md:mx-[10vw] lg:mx-0 my-9 dark:bg-black/60 bg-zinc-400/30 rounded-xl shadow-lg border-gray-500 shadow-zinc-700 font-['hello2']">
         <div className="h-full  lg:w-[40rem] w-full sm:px-10">
           <div className="flex items-center justify-center flex-col lg:gap-10 gap-7">
