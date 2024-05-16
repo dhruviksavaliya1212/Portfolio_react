@@ -44,8 +44,8 @@ const Project = () => {
           data-aos-duration="300"
           className=" h-fit mt-1 lg:-mt-0 flex justify-center items-center flex-col lg:flex-row flex-wrap lg:w-[65rem] xl:w-[73rem] w-full sm:w-[90vw] md:w-[80vw] sm:mx-[7vw] md:mx-[10vw] lg:mx-0  dark:bg-black/30 bg-zinc-400/30 rounded-xl shadow-lg border-gray-500 dark:shadow-zinc-600 shadow-zinc-700 font-['hello'] sm:px-10 py-5"
         >
-          <div className="w-[20rem] h-fit rounded-md sm:mx-4 my-2 p-2 shadow-inner shadow-zinc-800 dark:shadow-zinc-100">
-            <div onMouseEnter={handleHover} onMouseLeave={handleHover} className={`relative w-full h-fit rounded-lg `}>
+          <div data-aos="flip-up" data-aos-duration="500" className="w-[20rem] h-fit rounded-md sm:mx-4 my-2 p-2 shadow-inner shadow-zinc-800 dark:shadow-zinc-100">
+            <div data-aos="zoom-out" data-aos-delay="200" data-aos-duration="500" onMouseEnter={handleHover} onMouseLeave={handleHover} className={`relative w-full h-fit rounded-lg `}>
               <img src={img1} alt=""  className={`h-fit rounded-lg cursor-pointer transition-all duration-400 ${hover == false ? "scale-100":"scale-95"} ${hover == false ? "blur-none":"blur-sm"}`}/>
               <div className={`absolute top-1/2 left-1/4 text-md shadow-md shadow-zinc-500 dark:shadow-zinc-500 rounded-full ${ hover == false ? "hidden": "flex"}`}>
                 <a 
@@ -57,16 +57,16 @@ const Project = () => {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center items-center">
-              <h1 className="text-xl dark:text-zinc-400 text-gray-700 my-2 "> E-Commerce website </h1>
-              <p className="text-center">
+              <h1 data-aos="fade-up" data-aos-duration="500"  className="text-xl dark:text-zinc-400 text-gray-700 my-2 "> E-Commerce website </h1>
+              <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className="text-center">
                 {" "}
                 Responsive animated website with add to cart functionality and
                 light-dark theme using React js and Tailwind css
               </p>
             </div>
           </div>
-          <div className="w-[20rem] h-fit min-h-[21rem] rounded-md sm:mx-4 my-2 p-2 shadow-inner shadow-zinc-800 dark:shadow-zinc-100">
-            <div onMouseEnter={handleHover1} onMouseLeave={handleHover1} className={`relative w-full h-fit rounded-lg `}>
+          <div data-aos="flip-up" data-aos-duration="500" className="w-[20rem] h-fit min-h-[21rem] rounded-md sm:mx-4 my-2 p-2 shadow-inner shadow-zinc-800 dark:shadow-zinc-100">
+            <div data-aos="zoom-out" data-aos-delay="200" data-aos-duration="500" onMouseEnter={handleHover1} onMouseLeave={handleHover1} className={`relative w-full h-fit rounded-lg `}>
               <img src={img2} alt=""  className={`h-fit rounded-lg cursor-pointer transition-all duration-400 ${hover1 == false ? "scale-100":"scale-95"} ${hover1 == false ? "blur-none":"blur-sm"}`}/>
               <div className={`absolute top-1/2 left-1/4 text-md shadow-md shadow-zinc-500 dark:shadow-zinc-500 rounded-full ${ hover1 == false ? "hidden": "flex"}`}>
                 <a 
@@ -78,15 +78,15 @@ const Project = () => {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center items-center">
-              <h1 className="text-xl dark:text-zinc-400 text-gray-700 my-2 "> Ochi website clone </h1>
-              <p className="text-center">
+              <h1 data-aos="fade-up" data-aos-duration="500" className="text-xl dark:text-zinc-400 text-gray-700 my-2 "> Ochi website clone </h1>
+              <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className="text-center">
                 {" "}
                 Responsive animated ochi clone website using React js and Tailwind css
               </p>
             </div>
           </div>
-          <div className="w-[20rem] h-fit rounded-md sm:mx-4 my-2 p-2 shadow-inner shadow-zinc-800 dark:shadow-zinc-100">
-            <div onMouseEnter={handleHover2} onMouseLeave={handleHover2} className={`relative w-full h-fit rounded-lg `}>
+          <div data-aos="flip-up" data-aos-duration="500" className="w-[20rem] h-fit rounded-md sm:mx-4 my-2 p-2 shadow-inner shadow-zinc-800 dark:shadow-zinc-100">
+            <div data-aos="zoom-out" data-aos-delay="200" data-aos-duration="500" onMouseEnter={handleHover2} onMouseLeave={handleHover2} className={`relative w-full h-fit rounded-lg `}>
               <img src={img3} alt=""  className={`h-fit rounded-lg cursor-pointer transition-all duration-400 ${hover2 == false ? "scale-100":"scale-95"} ${hover2 == false ? "blur-none":"blur-sm"}`}/>
               <div className={`absolute top-1/2 left-1/4 text-md shadow-md shadow-zinc-500 dark:shadow-zinc-500 rounded-full ${ hover2 == false ? "hidden": "flex"}`}>
                 <a 
@@ -98,8 +98,8 @@ const Project = () => {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center items-center">
-              <h1 className="text-xl dark:text-zinc-400 text-gray-700  my-2 "> Printerest clone website </h1>
-              <p className="text-center">
+              <h1 data-aos="fade-up" data-aos-duration="500" className="text-xl dark:text-zinc-400 text-gray-700  my-2 "> Printerest clone website </h1>
+              <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className="text-center">
                 {" "}
                 Responsive animated website with login and register with add image functionality using Node,Express,Mongodb and Tailwind css
               </p>

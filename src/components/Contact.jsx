@@ -46,7 +46,7 @@ const Contact = () => {
                 <h1
                   data-aos="fade-left"
                   data-aos-duration="400"
-                  className=" text-xl"
+                  className=" text-xl my-1"
                 >
                   Feel free to drop us a line below!
                 </h1>
