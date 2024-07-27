@@ -2,9 +2,10 @@ import React from "react";
 import img from "../assets/contact.png";
 
 const Contact = () => {
+
   return (
     <section id="contact">
-      <div className='h-screen overflow-hidden flex items-center justify-center w-full px-3 pb-8 pt-28 dark:bg-black/60 '>
+      <div className="h-full overflow-hidden flex items-center justify-center w-full px-3 pb-8 pt-20 dark:bg-black/60 ">
         <div className="w-full h-full flex items-center justify-center flex-col">
           <div className="relative w-full h-[5rem] flex items-center justify-center ">
             <h1 className="text-6xl font-black  tracking-wider uppercase opacity-15">
@@ -50,15 +51,17 @@ const Contact = () => {
                       type="text"
                       name="name"
                       id=""
+                      required
                       placeholder="Enter your name"
                       className="border border-zinc-600 dark:border-zinc-400 shadow-lg shadow-zinc-600 dark:shadow-zinc-600 text-lg px-3 placeholder:text-zinc-500 rounded-xl bg-transparent h-14 sm:w-[25rem] w-full "
                     />
                     <input
                       data-aos="fade-up"
                       data-aos-delay="250"
-                      type="text"
-                      name="name"
+                      type="email"
+                      name="email"
                       id=""
+                      required
                       placeholder="Enter your email"
                       className="border border-zinc-600 dark:border-zinc-400 shadow-lg shadow-zinc-600 dark:shadow-zinc-600 text-lg px-3 placeholder:text-zinc-500 rounded-xl bg-transparent h-14 sm:w-[25rem] w-full mt-3"
                     />
@@ -66,19 +69,19 @@ const Contact = () => {
                       data-aos="fade-up"
                       data-aos-delay="300"
                       placeholder="Type your message here"
+                      required
                       className="border border-zinc-600 dark:border-zinc-400 shadow-lg shadow-zinc-600 dark:shadow-zinc-600 text-lg px-3 py-3 placeholder:text-zinc-500 rounded-xl bg-transparent sm:w-[25rem] w-full h-32 mt-3"
                     ></textarea>
+                    <div className="w-full flex justify-center">
+                      <button
+                        type="button"
+                        value="submit"
+                        className="uppercase  px-10 py-2 mt-2 mx-4  dark:bg-zinc-700 shadow-md dark:shadow-zinc-500 shadow-zinc-800 bg-zinc-500 text-lg rounded-full"
+                      >
+                        Send
+                      </button>
+                    </div>
                   </form>
-                  <div
-                    className="w-full flex justify-center"
-                  >
-                    <button
-                      type="button"
-                      className="uppercase  px-10 py-2 mt-2 mx-4  dark:bg-zinc-700 shadow-md dark:shadow-zinc-500 shadow-zinc-800 bg-zinc-500 text-lg rounded-full"
-                    >
-                      Send
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>

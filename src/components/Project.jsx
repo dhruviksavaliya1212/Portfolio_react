@@ -5,7 +5,7 @@ const Project = () => {
 
   return (
     <section id="project">
-      <div className="min-h-screen max-h-fit overflow-hidden flex items-center justify-center w-full px-3 pb-8 pt-16 dark:bg-black/60 ">
+      <div className="min-h-screen max-h-full overflow-hidden flex items-center justify-center w-full px-3 pb-8 pt-16 dark:bg-black/60 ">
         <div className="w-full h-full flex items-center justify-center flex-col">
           <div className="relative w-full h-[5rem] flex items-center justify-center ">
             <h1 className="text-6xl font-black tracking-[0.4em] uppercase opacity-15">

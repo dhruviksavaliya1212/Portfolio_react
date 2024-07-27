@@ -20,7 +20,7 @@ export const skills = [
     complete:70,
     color:"blue",
     dataAos:"fade-down",
-    dataAosDelay:"500"
+    dataAosDelay:"450"
   },
   {
     id:3,
@@ -28,7 +28,7 @@ export const skills = [
     complete:65,
     color:"orange",
     dataAos:"fade-down",
-    dataAosDelay:"600"
+    dataAosDelay:"500"
   },
   {
     id:4,
@@ -36,7 +36,7 @@ export const skills = [
     complete:80,
     color:"crimson",
     dataAos:"fade-down",
-    dataAosDelay:"700"
+    dataAosDelay:"550"
   },
   {
     id:5,
@@ -44,7 +44,7 @@ export const skills = [
     complete:50,
     color:"violet",
     dataAos:"fade-down",
-    dataAosDelay:"800"
+    dataAosDelay:"600"
   },
   {
     id:6,
@@ -52,7 +52,7 @@ export const skills = [
     complete:70,
     color:"purple",
     dataAos:"fade-down",
-    dataAosDelay:"900"
+    dataAosDelay:"650"
   },
   {
     id:7,
@@ -60,21 +60,21 @@ export const skills = [
     complete:40,
     color:"fuchsia",
     dataAos:"fade-down",
-    dataAosDelay:"1000"
+    dataAosDelay:"700"
   },{
     id:8,
     name:"NEXT JS",
     complete:70,
     color:"indigo",
     dataAos:"fade-down",
-    dataAosDelay:"1100"
+    dataAosDelay:"750"
   },{
     id:9,
     name:"NODE JS",
     complete:60,
     color:"gray",
     dataAos:"fade-down",
-    dataAosDelay:"1200"
+    dataAosDelay:"800"
   },
   {
     id:10,
@@ -82,14 +82,14 @@ export const skills = [
     complete:70,
     color:"teal",
     dataAos:"fade-down",
-    dataAosDelay:"1300"
+    dataAosDelay:"850"
   },{
     id:11,
     name:"MONGODB",
     complete:60,
     color:"brown",
     dataAos:"fade-down",
-    dataAosDelay:"1400"
+    dataAosDelay:"900"
   },
   {
     id:12,
@@ -97,7 +97,7 @@ export const skills = [
     complete:60,
     color:"crimson",
     dataAos:"fade-down",
-    dataAosDelay:"1500"
+    dataAosDelay:"950"
   },
 ]
 

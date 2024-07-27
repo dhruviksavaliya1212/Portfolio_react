@@ -10,7 +10,7 @@ const Home = () => {
     deleteSpeed: 50,
   });
   return (
-    <div className=' relative min-h-screen max-h-fit overflow-hidden flex pt-24 pb-5 lg:pt-16 items-center justify-center w-full dark:bg-black/60 '>
+    <div className=' relative min-h-screen max-h-full overflow-hidden flex pt-24 pb-10 lg:pt-16 items-center justify-center w-full dark:bg-black/60 '>
       <div
         data-aos="zoom-in"
         data-aos-duration="300"
